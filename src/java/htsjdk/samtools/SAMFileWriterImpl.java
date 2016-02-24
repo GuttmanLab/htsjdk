@@ -165,6 +165,8 @@ public abstract class SAMFileWriterImpl implements SAMFileWriter
                 return new SAMRecordQueryNameComparator();
             case duplicate:
                 return new SAMRecordDuplicateComparator();
+            case tagXB:
+	    		return new SAMRecordXBTagComparator();
             case unsorted:
                 return null;
         }
