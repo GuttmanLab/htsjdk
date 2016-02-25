@@ -24,7 +24,20 @@
 
 package htsjdk.samtools;
 
-import htsjdk.samtools.BamIndexValidator.IndexValidationStringency;
+import htsjdk.samtools.fork.ReservedTagConstants;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMFormatException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.SamFileValidator;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
+import htsjdk.samtools.fork.BamIndexValidator.IndexValidationStringency;
 import htsjdk.samtools.metrics.MetricBase;
 import htsjdk.samtools.metrics.MetricsFile;
 import htsjdk.samtools.reference.ReferenceSequence;
@@ -32,6 +45,7 @@ import htsjdk.samtools.reference.ReferenceSequenceFile;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.Histogram;
 import htsjdk.samtools.util.StringUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

@@ -23,8 +23,8 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 
 import java.util.Iterator;
 

@@ -24,8 +24,26 @@
 
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.BAMRecord;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.DefaultSAMRecordFactory;
+import htsjdk.samtools.fork.SAMBinaryTagAndUnsignedArrayValue;
+import htsjdk.samtools.fork.SAMBinaryTagAndValue;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordFactory;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMTagUtil;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.TextCigarCodec;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.util.BinaryCodec;
 import htsjdk.samtools.util.TestUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

@@ -23,8 +23,17 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.BAMIndexContent;
+import htsjdk.samtools.fork.BAMIndexer;
+import htsjdk.samtools.fork.CachingBAMFileIndex;
+import htsjdk.samtools.fork.LinearIndex;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordIterator;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.IOUtil;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

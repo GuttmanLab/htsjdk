@@ -1,6 +1,6 @@
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * Filter out SAMRecords with NotPrimaryAlignment or Supplementary flag set

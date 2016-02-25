@@ -24,9 +24,9 @@
 
 package htsjdk.samtools.reference;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.samtools.util.FastLineReader;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.StringUtil;

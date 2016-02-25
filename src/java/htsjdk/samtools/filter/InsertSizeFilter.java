@@ -1,7 +1,7 @@
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * Filter things that fall outside a specified range of insert sizes.

@@ -17,8 +17,8 @@
  */
 package htsjdk.samtools.cram.ref;
 
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.samtools.reference.ReferenceSequence;
 import htsjdk.samtools.reference.ReferenceSequenceFile;
 

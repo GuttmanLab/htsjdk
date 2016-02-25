@@ -1,6 +1,6 @@
 package htsjdk.samtools.cram;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 
 /**
  * Created by edwardk on 8/13/15.

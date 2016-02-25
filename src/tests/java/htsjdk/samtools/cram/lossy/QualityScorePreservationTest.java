@@ -1,16 +1,17 @@
 package htsjdk.samtools.cram.lossy;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SamInputResource;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
 import htsjdk.samtools.cram.build.CramNormalizer;
 import htsjdk.samtools.cram.build.Sam2CramRecordFactory;
 import htsjdk.samtools.cram.common.CramVersions;
 import htsjdk.samtools.cram.ref.ReferenceTracks;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloserUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

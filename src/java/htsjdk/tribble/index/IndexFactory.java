@@ -23,8 +23,8 @@
  */
 package htsjdk.tribble.index;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.seekablestream.ISeekableStreamFactory;
 import htsjdk.samtools.seekablestream.SeekableStream;
 import htsjdk.samtools.seekablestream.SeekableStreamFactory;

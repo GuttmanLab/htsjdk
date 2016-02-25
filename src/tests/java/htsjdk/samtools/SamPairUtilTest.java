@@ -23,7 +23,15 @@
  */
 package htsjdk.samtools;
 
-import htsjdk.samtools.SamPairUtil.SetMateInfoIterator;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.SamPairUtil;
+import htsjdk.samtools.fork.TextCigarCodec;
+import htsjdk.samtools.fork.SamPairUtil.SetMateInfoIterator;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

@@ -17,13 +17,6 @@
  */
 package htsjdk.samtools.cram.build;
 
-import htsjdk.samtools.CigarElement;
-import htsjdk.samtools.CigarOperator;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMReadGroupRecord;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMRecord.SAMTagAndValue;
-import htsjdk.samtools.SAMTag;
 import htsjdk.samtools.cram.common.CramVersions;
 import htsjdk.samtools.cram.common.Version;
 import htsjdk.samtools.cram.encoding.readfeatures.BaseQualityScore;
@@ -37,6 +30,13 @@ import htsjdk.samtools.cram.encoding.readfeatures.SoftClip;
 import htsjdk.samtools.cram.encoding.readfeatures.Substitution;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.ReadTag;
+import htsjdk.samtools.fork.CigarElement;
+import htsjdk.samtools.fork.CigarOperator;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTag;
+import htsjdk.samtools.fork.SAMRecord.SAMTagAndValue;
 import htsjdk.samtools.util.Log;
 
 import java.util.ArrayList;
@@ -190,7 +190,7 @@ public class Sam2CramRecordFactory {
      *
      * @param cramRecord CRAM record
      * @param samRecord SAM record
-     * @return a list of read features created for the given {@link htsjdk.samtools.SAMRecord}
+     * @return a list of read features created for the given {@link htsjdk.samtools.fork.SAMRecord}
      */
     private List<ReadFeature> checkedCreateVariations(final CramCompressionRecord cramRecord, final SAMRecord samRecord) {
         try {

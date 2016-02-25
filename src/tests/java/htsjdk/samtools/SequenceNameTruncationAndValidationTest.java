@@ -23,7 +23,14 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFormatException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloserUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

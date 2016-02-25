@@ -3,6 +3,11 @@ package htsjdk.samtools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.DuplicateSet;
+import htsjdk.samtools.fork.DuplicateSetIterator;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+
 import java.util.HashMap;
 import java.util.Map;
 

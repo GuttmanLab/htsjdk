@@ -23,8 +23,8 @@
  */
 package htsjdk.samtools.util.zip;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMException;
 
 import java.lang.reflect.Constructor;
 import java.util.zip.Deflater;

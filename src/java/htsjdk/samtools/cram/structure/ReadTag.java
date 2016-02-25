@@ -17,15 +17,15 @@
  */
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMFormatException;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMRecord.SAMTagAndValue;
-import htsjdk.samtools.SAMTagUtil;
-import htsjdk.samtools.SAMUtils;
-import htsjdk.samtools.SAMValidationError;
-import htsjdk.samtools.TagValueAndUnsignedArrayFlag;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFormatException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTagUtil;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.TagValueAndUnsignedArrayFlag;
+import htsjdk.samtools.fork.ValidationStringency;
+import htsjdk.samtools.fork.SAMRecord.SAMTagAndValue;
 import htsjdk.samtools.util.StringUtil;
 
 import java.nio.ByteBuffer;
@@ -33,7 +33,7 @@ import java.nio.ByteOrder;
 import java.nio.charset.Charset;
 
 /**
- * CRAM counterpart of {@link htsjdk.samtools.SAMTag}.
+ * CRAM counterpart of {@link htsjdk.samtools.fork.SAMTag}.
  * TODO: consider merging/dropping this class in favour of SAMTag or a SAMTag implementation.
  */
 public class ReadTag implements Comparable<ReadTag> {

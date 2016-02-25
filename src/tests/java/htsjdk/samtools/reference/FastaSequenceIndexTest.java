@@ -24,7 +24,8 @@
 
 package htsjdk.samtools.reference;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

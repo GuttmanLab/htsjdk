@@ -17,8 +17,6 @@
  */
 package htsjdk.samtools.cram.build;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
 import htsjdk.samtools.cram.encoding.readfeatures.BaseQualityScore;
 import htsjdk.samtools.cram.encoding.readfeatures.Deletion;
 import htsjdk.samtools.cram.encoding.readfeatures.InsertBase;
@@ -31,6 +29,8 @@ import htsjdk.samtools.cram.encoding.readfeatures.Substitution;
 import htsjdk.samtools.cram.ref.ReferenceSource;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.SubstitutionMatrix;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.Log;
 
 import java.util.ArrayList;
@@ -321,7 +321,7 @@ public class CramNormalizer {
 
     /**
      * The method is similar in semantics to
-     * {@link htsjdk.samtools.SamPairUtil#computeInsertSize(SAMRecord, SAMRecord)
+     * {@link htsjdk.samtools.fork.SamPairUtil#computeInsertSize(SAMRecord, SAMRecord)
      * computeInsertSize} but operates on CRAM native records instead of
      * SAMRecord objects.
      *

@@ -23,15 +23,15 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.AlignmentBlock;
-import htsjdk.samtools.Cigar;
-import htsjdk.samtools.CigarElement;
-import htsjdk.samtools.CigarOperator;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMSequenceRecord;
-import htsjdk.samtools.SAMTag;
+import htsjdk.samtools.fork.AlignmentBlock;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.CigarElement;
+import htsjdk.samtools.fork.CigarOperator;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMTag;
 
 import java.io.File;
 import java.math.BigInteger;

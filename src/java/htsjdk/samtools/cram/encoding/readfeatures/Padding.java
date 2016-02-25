@@ -20,7 +20,7 @@ package htsjdk.samtools.cram.encoding.readfeatures;
 import java.io.Serializable;
 
 /**
- * A read feature representing padding, similar to {@link htsjdk.samtools.CigarOperator#P}.
+ * A read feature representing padding, similar to {@link htsjdk.samtools.fork.CigarOperator#P}.
  */
 public class Padding implements Serializable, ReadFeature {
 

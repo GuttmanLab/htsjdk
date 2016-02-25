@@ -23,8 +23,9 @@
  */
 package htsjdk.variant.utils;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.SequenceUtil;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.Assert;

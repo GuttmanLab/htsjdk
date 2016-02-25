@@ -24,8 +24,8 @@
 
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMException;
 
 import java.io.File;
 import java.io.FileInputStream;

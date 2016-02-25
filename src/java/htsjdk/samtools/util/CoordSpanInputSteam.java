@@ -1,6 +1,6 @@
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.Chunk;
+import htsjdk.samtools.fork.Chunk;
 import htsjdk.samtools.seekablestream.SeekableStream;
 
 import java.io.IOException;

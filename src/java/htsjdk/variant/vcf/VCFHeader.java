@@ -25,8 +25,8 @@
 
 package htsjdk.variant.vcf;
 
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.tribble.TribbleException;
 import htsjdk.tribble.util.ParsingUtils;
 import htsjdk.variant.utils.GeneralUtils;

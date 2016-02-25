@@ -32,7 +32,7 @@ class ReferenceRegion {
     /**
      * Construct reference sequence region with the given bases.
      * @param bases the bases for the sequence
-     * @param sequenceIndex index in the {@link htsjdk.samtools.SAMSequenceDictionary}
+     * @param sequenceIndex index in the {@link htsjdk.samtools.fork.SAMSequenceDictionary}
      * @param sequenceName name of the reference sequence
      * @param alignmentStart 1-based inclusive position of the region start on the reference sequence
      * @param alignmentEnd   1-based inclusive position of the region end on the reference sequence

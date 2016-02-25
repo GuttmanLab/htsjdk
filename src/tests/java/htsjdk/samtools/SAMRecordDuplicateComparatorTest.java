@@ -26,6 +26,11 @@ package htsjdk.samtools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordDuplicateComparator;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;

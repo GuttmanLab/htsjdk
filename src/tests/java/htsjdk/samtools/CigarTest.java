@@ -27,6 +27,11 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.CigarOperator;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.TextCigarCodec;
+
 import java.util.Arrays;
 import java.util.List;
 

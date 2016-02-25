@@ -26,11 +26,12 @@
 
 package htsjdk.samtools.sra;
 
-import htsjdk.samtools.BAMFileSpan;
-import htsjdk.samtools.Bin;
-import htsjdk.samtools.GenomicIndexUtil;
-import htsjdk.samtools.SRAFileReader;
-import htsjdk.samtools.SRAIndex;
+import htsjdk.samtools.fork.BAMFileSpan;
+import htsjdk.samtools.fork.Bin;
+import htsjdk.samtools.fork.GenomicIndexUtil;
+import htsjdk.samtools.fork.SRAFileReader;
+import htsjdk.samtools.fork.SRAIndex;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

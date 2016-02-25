@@ -17,11 +17,11 @@
  */
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMBinaryTagAndUnsignedArrayValue;
-import htsjdk.samtools.SAMBinaryTagAndValue;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMTagUtil;
+import htsjdk.samtools.fork.SAMBinaryTagAndUnsignedArrayValue;
+import htsjdk.samtools.fork.SAMBinaryTagAndValue;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTagUtil;
 import htsjdk.samtools.util.Log;
 import htsjdk.samtools.util.SequenceUtil;
 
@@ -182,7 +182,7 @@ public class Slice {
 
     /**
      * Get tag value attached to the slice.
-     * @param tag tag ID as a short integer as returned by {@link htsjdk.samtools.SAMTagUtil#makeBinaryTag(java.lang.String)}
+     * @param tag tag ID as a short integer as returned by {@link htsjdk.samtools.fork.SAMTagUtil#makeBinaryTag(java.lang.String)}
      * @return a value of the tag
      */
     public Object getAttribute(final short tag) {
@@ -196,7 +196,7 @@ public class Slice {
 
     /**
      * Set a value for the tag.
-     * @param tag tag ID as a short integer as returned by {@link htsjdk.samtools.SAMTagUtil#makeBinaryTag(java.lang.String)}
+     * @param tag tag ID as a short integer as returned by {@link htsjdk.samtools.fork.SAMTagUtil#makeBinaryTag(java.lang.String)}
      * @param value tag value
      */
     public void setAttribute(final String tag, final Object value) {

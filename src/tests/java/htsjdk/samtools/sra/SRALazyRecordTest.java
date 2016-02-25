@@ -1,7 +1,7 @@
 package htsjdk.samtools.sra;
 
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SRAFileReader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SRAFileReader;
 import htsjdk.samtools.util.TestUtil;
 
 import org.testng.Assert;

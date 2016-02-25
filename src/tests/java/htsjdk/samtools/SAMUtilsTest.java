@@ -26,6 +26,12 @@ package htsjdk.samtools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.TextCigarCodec;
+
 import java.util.Arrays;
 
 public class SAMUtilsTest {

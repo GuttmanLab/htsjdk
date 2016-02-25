@@ -23,6 +23,10 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMProgramRecord;
+import htsjdk.samtools.fork.SAMUtils;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

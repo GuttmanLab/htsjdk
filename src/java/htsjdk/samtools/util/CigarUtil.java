@@ -23,13 +23,13 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.Cigar;
-import htsjdk.samtools.CigarElement;
-import htsjdk.samtools.CigarOperator;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMValidationError;
-import htsjdk.samtools.TextCigarCodec;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.CigarElement;
+import htsjdk.samtools.fork.CigarOperator;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.TextCigarCodec;
 
 import java.util.ArrayList;
 import java.util.Collections;

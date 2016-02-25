@@ -1,13 +1,14 @@
 package htsjdk.samtools.cram.build;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMSequenceRecord;
 import htsjdk.samtools.cram.ref.ReferenceSource;
 import htsjdk.samtools.cram.structure.Container;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.Slice;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.samtools.reference.InMemoryReferenceSequenceFile;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

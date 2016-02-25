@@ -26,6 +26,11 @@ package htsjdk.samtools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.BinaryCigarCodec;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.TextCigarCodec;
+
 import java.util.Arrays;
 
 public class CigarCodecTest {

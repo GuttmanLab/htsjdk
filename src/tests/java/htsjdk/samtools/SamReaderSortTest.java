@@ -28,6 +28,10 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecordIterator;
+import htsjdk.samtools.fork.SamReaderFactory;
+
 import java.io.File;
 
 /**

@@ -24,9 +24,10 @@
 
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.variant.vcf.VCFFileReader;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;

@@ -23,8 +23,8 @@
  */
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.ReservedTagConstants;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.ReservedTagConstants;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * Filter SAMRecords so that only those that have at least one un-clipped base are

@@ -23,7 +23,7 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMFileHeader;
+import htsjdk.samtools.fork.SAMFileHeader;
 
 import java.util.BitSet;
 import java.util.List;

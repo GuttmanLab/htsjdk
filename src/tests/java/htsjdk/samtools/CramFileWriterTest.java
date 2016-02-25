@@ -24,9 +24,24 @@
 package htsjdk.samtools;
 
 import htsjdk.samtools.cram.ref.ReferenceSource;
+import htsjdk.samtools.fork.CRAMFileReader;
+import htsjdk.samtools.fork.CRAMFileWriter;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMFileWriter;
+import htsjdk.samtools.fork.SAMFileWriterFactory;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordCoordinateComparator;
+import htsjdk.samtools.fork.SAMRecordIterator;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.reference.InMemoryReferenceSequenceFile;
 import htsjdk.samtools.util.Log;
 import htsjdk.samtools.util.Log.LogLevel;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

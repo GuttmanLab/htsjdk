@@ -23,9 +23,10 @@
  */
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.ValidationStringency;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

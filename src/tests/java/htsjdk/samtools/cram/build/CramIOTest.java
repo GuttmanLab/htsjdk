@@ -1,9 +1,10 @@
 package htsjdk.samtools.cram.build;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMSequenceRecord;
 import htsjdk.samtools.cram.common.CramVersions;
 import htsjdk.samtools.cram.structure.CramHeader;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

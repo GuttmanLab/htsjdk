@@ -25,7 +25,7 @@
 
 package htsjdk.variant.variantcontext.writer;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.RuntimeIOException;
 import htsjdk.tribble.index.IndexCreator;
 import htsjdk.variant.variantcontext.VariantContext;

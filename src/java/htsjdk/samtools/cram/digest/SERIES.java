@@ -1,7 +1,7 @@
 package htsjdk.samtools.cram.digest;
 
-import htsjdk.samtools.SAMRecord;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 enum SERIES {
     BASES {

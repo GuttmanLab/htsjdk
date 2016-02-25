@@ -1,9 +1,9 @@
 package htsjdk.samtools.cram;
 
-import htsjdk.samtools.CRAMIndexer;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMSequenceDictionary;
 import htsjdk.samtools.cram.structure.Slice;
+import htsjdk.samtools.fork.CRAMIndexer;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.seekablestream.SeekableMemoryStream;
 import htsjdk.samtools.seekablestream.SeekableStream;
 

@@ -20,7 +20,7 @@ package htsjdk.samtools.cram.encoding.readfeatures;
 import java.io.Serializable;
 
 /**
- * A read feature representing a reference skip similar to {@link htsjdk.samtools.CigarOperator#N}.
+ * A read feature representing a reference skip similar to {@link htsjdk.samtools.fork.CigarOperator#N}.
  */
 public class RefSkip implements Serializable, ReadFeature {
 

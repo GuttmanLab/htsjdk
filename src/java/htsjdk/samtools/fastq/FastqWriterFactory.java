@@ -1,6 +1,6 @@
 package htsjdk.samtools.fastq;
 
-import htsjdk.samtools.Defaults;
+import htsjdk.samtools.fork.Defaults;
 
 import java.io.File;
 

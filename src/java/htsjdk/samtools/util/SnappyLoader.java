@@ -23,7 +23,8 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
+
 import org.xerial.snappy.LoadSnappy;
 import org.xerial.snappy.SnappyInputStream;
 

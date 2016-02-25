@@ -19,7 +19,7 @@
 package htsjdk.samtools.util.ftp;
 
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 import htsjdk.samtools.seekablestream.UserPasswordInput;
 import htsjdk.samtools.util.RuntimeIOException;
 

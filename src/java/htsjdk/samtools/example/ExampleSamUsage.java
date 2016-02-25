@@ -23,14 +23,14 @@
  */
 package htsjdk.samtools.example;
 
-import htsjdk.samtools.DefaultSAMRecordFactory;
-import htsjdk.samtools.SAMFileWriter;
-import htsjdk.samtools.SAMFileWriterFactory;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SamInputResource;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.DefaultSAMRecordFactory;
+import htsjdk.samtools.fork.SAMFileWriter;
+import htsjdk.samtools.fork.SAMFileWriterFactory;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.seekablestream.SeekableStream;
 
 import java.io.File;
@@ -43,7 +43,7 @@ public class ExampleSamUsage {
         throw new UnsupportedOperationException();
     }
 
-    /** Example usages of {@link htsjdk.samtools.SamReaderFactory} */
+    /** Example usages of {@link htsjdk.samtools.fork.SamReaderFactory} */
     public void openSamExamples() throws MalformedURLException {
         /**
          * Simplest case

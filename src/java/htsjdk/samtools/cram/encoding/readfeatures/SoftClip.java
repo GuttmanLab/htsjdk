@@ -21,7 +21,7 @@ import java.io.Serializable;
 import java.util.Arrays;
 
 /**
- * A read feature representing a soft clip similar to {@link htsjdk.samtools.CigarOperator#S}.
+ * A read feature representing a soft clip similar to {@link htsjdk.samtools.fork.CigarOperator#S}.
  */
 public class SoftClip implements Serializable, ReadFeature {
 

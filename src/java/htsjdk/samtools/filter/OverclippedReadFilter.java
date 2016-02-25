@@ -23,10 +23,10 @@
  */
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.CigarElement;
-import htsjdk.samtools.CigarOperator;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.CigarElement;
+import htsjdk.samtools.fork.CigarOperator;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * Filters out reads with very few unclipped bases, likely due to the read coming

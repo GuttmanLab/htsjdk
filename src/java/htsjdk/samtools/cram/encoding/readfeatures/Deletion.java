@@ -20,7 +20,7 @@ package htsjdk.samtools.cram.encoding.readfeatures;
 import java.io.Serializable;
 
 /**
- * A read feature representing a deletion of one or more bases similar to {@link htsjdk.samtools.CigarOperator#D}.
+ * A read feature representing a deletion of one or more bases similar to {@link htsjdk.samtools.fork.CigarOperator#D}.
  */
 public class Deletion implements Serializable, ReadFeature {
 

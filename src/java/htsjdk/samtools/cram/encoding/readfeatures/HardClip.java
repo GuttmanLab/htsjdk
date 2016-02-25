@@ -20,7 +20,7 @@ package htsjdk.samtools.cram.encoding.readfeatures;
 import java.io.Serializable;
 
 /**
- * A read feature representing a hard clip similar to {@link htsjdk.samtools.CigarOperator#H}.
+ * A read feature representing a hard clip similar to {@link htsjdk.samtools.fork.CigarOperator#H}.
  */
 public class HardClip implements Serializable, ReadFeature {
     public static final byte operator = 'H';

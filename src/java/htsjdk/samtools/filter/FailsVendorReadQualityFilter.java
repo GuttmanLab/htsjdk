@@ -23,7 +23,7 @@
  */
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * Filter for filtering out reads that do not pass the quality filter

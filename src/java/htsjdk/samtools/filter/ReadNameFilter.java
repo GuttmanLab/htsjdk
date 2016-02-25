@@ -23,8 +23,8 @@
  */
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.IOUtil;
 
 import java.io.BufferedReader;

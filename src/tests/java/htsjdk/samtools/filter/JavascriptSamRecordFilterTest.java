@@ -23,9 +23,9 @@
  */
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.SAMRecordIterator;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.SAMRecordIterator;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloserUtil;
 
 import org.testng.Assert;

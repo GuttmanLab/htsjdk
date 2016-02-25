@@ -24,8 +24,8 @@
 package htsjdk.samtools.util;
 
 
-import htsjdk.samtools.FileTruncatedException;
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.FileTruncatedException;
+import htsjdk.samtools.fork.SAMException;
 import htsjdk.samtools.seekablestream.SeekableBufferedStream;
 import htsjdk.samtools.seekablestream.SeekableFileStream;
 import htsjdk.samtools.seekablestream.SeekableHTTPStream;

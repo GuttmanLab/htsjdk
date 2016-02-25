@@ -25,7 +25,7 @@
 
 package htsjdk.variant.variantcontext.writer;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.TestUtil;
 import htsjdk.tribble.AbstractFeatureReader;
 import htsjdk.tribble.FeatureReader;

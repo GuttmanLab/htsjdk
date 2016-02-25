@@ -23,9 +23,10 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SamInputResource;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

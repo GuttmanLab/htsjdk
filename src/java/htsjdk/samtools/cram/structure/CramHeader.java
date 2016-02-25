@@ -17,8 +17,8 @@
  */
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMFileHeader;
 import htsjdk.samtools.cram.common.Version;
+import htsjdk.samtools.fork.SAMFileHeader;
 
 import java.util.Arrays;
 

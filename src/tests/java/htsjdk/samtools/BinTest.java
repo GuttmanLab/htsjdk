@@ -27,6 +27,9 @@ package htsjdk.samtools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.Bin;
+import htsjdk.samtools.fork.Chunk;
+
 import java.util.Collections;
 
 public class BinTest {

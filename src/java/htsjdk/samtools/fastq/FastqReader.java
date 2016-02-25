@@ -23,7 +23,7 @@
  */
 package htsjdk.samtools.fastq;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.StringUtil;
 

@@ -17,10 +17,10 @@
  */
 package htsjdk.samtools.cram.ref;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMSequenceRecord;
 import htsjdk.samtools.cram.io.InputStreamUtils;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.samtools.reference.ReferenceSequence;
 import htsjdk.samtools.reference.ReferenceSequenceFile;
 import htsjdk.samtools.reference.ReferenceSequenceFileFactory;

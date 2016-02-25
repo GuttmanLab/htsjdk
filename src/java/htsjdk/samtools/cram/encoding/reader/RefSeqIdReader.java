@@ -15,8 +15,6 @@
  ******************************************************************************/
 package htsjdk.samtools.cram.encoding.reader;
 
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.ValidationStringency;
 import htsjdk.samtools.cram.CRAMException;
 import htsjdk.samtools.cram.encoding.readfeatures.BaseQualityScore;
 import htsjdk.samtools.cram.encoding.readfeatures.Bases;
@@ -35,6 +33,8 @@ import htsjdk.samtools.cram.structure.AlignmentSpan;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.ReadTag;
 import htsjdk.samtools.cram.structure.Slice;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.util.RuntimeIOException;
 
 import java.io.IOException;

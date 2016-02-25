@@ -23,7 +23,7 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 
 /**
  * Thrown by various IO classes to indicate IOException without having to clutter the API with throws clauses

@@ -25,8 +25,8 @@
 
 package htsjdk.variant.vcf;
 
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.variant.utils.GeneralUtils;
 
 import java.io.File;

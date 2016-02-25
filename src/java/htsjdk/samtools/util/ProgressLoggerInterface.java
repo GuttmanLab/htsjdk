@@ -24,7 +24,7 @@ package htsjdk.samtools.util;
  * THE SOFTWARE.
  */
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * An interface defining the record() methods of the Picard-public ProgressLogger implementation.

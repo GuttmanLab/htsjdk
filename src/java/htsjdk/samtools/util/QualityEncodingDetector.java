@@ -1,11 +1,11 @@
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMUtils;
-import htsjdk.samtools.SamReader;
 import htsjdk.samtools.fastq.FastqReader;
 import htsjdk.samtools.fastq.FastqRecord;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.SamReader;
 
 import java.util.ArrayList;
 import java.util.Arrays;

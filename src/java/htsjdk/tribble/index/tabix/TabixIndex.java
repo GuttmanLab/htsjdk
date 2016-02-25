@@ -23,10 +23,10 @@
  */
 package htsjdk.tribble.index.tabix;
 
-import htsjdk.samtools.Bin;
-import htsjdk.samtools.BinningIndexContent;
-import htsjdk.samtools.Chunk;
-import htsjdk.samtools.LinearIndex;
+import htsjdk.samtools.fork.Bin;
+import htsjdk.samtools.fork.BinningIndexContent;
+import htsjdk.samtools.fork.Chunk;
+import htsjdk.samtools.fork.LinearIndex;
 import htsjdk.samtools.util.BlockCompressedInputStream;
 import htsjdk.samtools.util.BlockCompressedOutputStream;
 import htsjdk.samtools.util.CloserUtil;

@@ -27,13 +27,13 @@
 package htsjdk.samtools.sra;
 
 import gov.nih.nlm.ncbi.ngs.NGS;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMTagUtil;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.Cigar;
-import htsjdk.samtools.SAMBinaryTagAndValue;
-import htsjdk.samtools.SAMUtils;
-import htsjdk.samtools.SAMValidationError;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.SAMBinaryTagAndValue;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTagUtil;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.SAMValidationError;
 import htsjdk.samtools.util.Log;
 import ngs.ReadCollection;
 import ngs.AlignmentIterator;

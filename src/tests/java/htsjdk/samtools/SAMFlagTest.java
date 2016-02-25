@@ -24,6 +24,8 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.SAMFlag;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

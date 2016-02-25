@@ -1,6 +1,5 @@
 package htsjdk.samtools.cram.build;
 
-import htsjdk.samtools.ValidationStringency;
 import htsjdk.samtools.cram.encoding.readfeatures.Substitution;
 import htsjdk.samtools.cram.structure.CompressionHeader;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
@@ -8,6 +7,8 @@ import htsjdk.samtools.cram.structure.EncodingID;
 import htsjdk.samtools.cram.structure.EncodingKey;
 import htsjdk.samtools.cram.structure.ReadTag;
 import htsjdk.samtools.cram.structure.SubstitutionMatrix;
+import htsjdk.samtools.fork.ValidationStringency;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

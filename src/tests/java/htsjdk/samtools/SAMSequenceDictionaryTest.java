@@ -29,6 +29,9 @@ package htsjdk.samtools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.Arrays;

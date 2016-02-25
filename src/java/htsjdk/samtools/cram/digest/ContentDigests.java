@@ -1,9 +1,9 @@
 package htsjdk.samtools.cram.digest;
 
-import htsjdk.samtools.SAMBinaryTagAndValue;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMTagUtil;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
+import htsjdk.samtools.fork.SAMBinaryTagAndValue;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTagUtil;
 import htsjdk.samtools.util.Log;
 
 import java.security.MessageDigest;

@@ -26,20 +26,21 @@
 
 package htsjdk.samtools.sra;
 
-import htsjdk.samtools.BAMFileSpan;
-import htsjdk.samtools.BrowseableBAMIndex;
-import htsjdk.samtools.Chunk;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMReadGroupRecord;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMRecordIterator;
-import htsjdk.samtools.SAMSequenceRecord;
-import htsjdk.samtools.SAMUtils;
-import htsjdk.samtools.SAMValidationError;
-import htsjdk.samtools.SamInputResource;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.BAMFileSpan;
+import htsjdk.samtools.fork.BrowseableBAMIndex;
+import htsjdk.samtools.fork.Chunk;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordIterator;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

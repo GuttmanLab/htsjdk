@@ -24,7 +24,7 @@
 
 package htsjdk.samtools.metrics;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.FormatUtil;
 import htsjdk.samtools.util.Histogram;

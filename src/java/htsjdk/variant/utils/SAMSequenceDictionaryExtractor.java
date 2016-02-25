@@ -24,12 +24,12 @@
 
 package htsjdk.variant.utils;
 
-import htsjdk.samtools.BamFileIoUtils;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMTextHeaderCodec;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.BamFileIoUtils;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMTextHeaderCodec;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.reference.ReferenceSequenceFileFactory;
 import htsjdk.samtools.util.BufferedLineReader;
 import htsjdk.samtools.util.CloserUtil;

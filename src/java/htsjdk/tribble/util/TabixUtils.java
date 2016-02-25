@@ -24,8 +24,8 @@
 package htsjdk.tribble.util;
 
 
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.samtools.util.BlockCompressedInputStream;
 import htsjdk.tribble.TribbleException;
 import htsjdk.tribble.readers.TabixReader;

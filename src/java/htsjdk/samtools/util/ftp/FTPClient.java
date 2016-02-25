@@ -18,7 +18,7 @@
 
 package htsjdk.samtools.util.ftp;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 
 import java.io.BufferedReader;
 import java.io.FilterInputStream;

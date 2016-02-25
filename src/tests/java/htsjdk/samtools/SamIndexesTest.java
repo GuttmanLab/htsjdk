@@ -2,10 +2,16 @@ package htsjdk.samtools;
 
 import htsjdk.samtools.cram.CRAIEntry;
 import htsjdk.samtools.cram.CRAIIndex;
+import htsjdk.samtools.fork.BAMFileSpan;
+import htsjdk.samtools.fork.CachingBAMFileIndex;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SamIndexes;
 import htsjdk.samtools.seekablestream.SeekableFileStream;
 import htsjdk.samtools.seekablestream.SeekableMemoryStream;
 import htsjdk.samtools.seekablestream.SeekableStream;
 import htsjdk.samtools.util.IOUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

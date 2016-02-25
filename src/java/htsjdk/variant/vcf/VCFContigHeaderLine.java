@@ -25,7 +25,7 @@
 
 package htsjdk.variant.vcf;
 
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.tribble.TribbleException;
 
 import java.util.LinkedHashMap;

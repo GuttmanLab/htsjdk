@@ -25,8 +25,8 @@
 
 package htsjdk.variant.variantcontext.writer;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.BlockCompressedOutputStream;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.Md5CalculatingOutputStream;

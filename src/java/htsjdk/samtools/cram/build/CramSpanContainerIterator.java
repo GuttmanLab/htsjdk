@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * An iterator of CRAM containers read from locations in {@link htsjdk.samtools.seekablestream.SeekableStream}. The locations are specified with
- * pairs of coordinates, they are basically file pointers as returned for example by {@link htsjdk.samtools.SamReader.Indexing#getFilePointerSpanningReads()}
+ * pairs of coordinates, they are basically file pointers as returned for example by {@link htsjdk.samtools.fork.SamReader.Indexing#getFilePointerSpanningReads()}
  */
 public class CramSpanContainerIterator implements Iterator<Container> {
     private final CramHeader cramHeader;

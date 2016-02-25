@@ -1,6 +1,6 @@
 package htsjdk.samtools.reference;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 
 import java.io.IOException;
 import java.util.HashMap;

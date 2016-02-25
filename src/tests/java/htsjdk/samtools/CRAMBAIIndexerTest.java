@@ -4,7 +4,15 @@ import htsjdk.samtools.cram.build.ContainerFactory;
 import htsjdk.samtools.cram.structure.Container;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.Slice;
+import htsjdk.samtools.fork.BAMIndex;
+import htsjdk.samtools.fork.BAMIndexMetaData;
+import htsjdk.samtools.fork.CRAMIndexer;
+import htsjdk.samtools.fork.CachingBAMFileIndex;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.seekablestream.SeekableMemoryStream;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

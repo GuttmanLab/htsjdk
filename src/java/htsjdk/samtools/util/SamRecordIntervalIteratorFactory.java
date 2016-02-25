@@ -23,11 +23,11 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.QueryInterval;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SamReader;
 import htsjdk.samtools.filter.IntervalFilter;
 import htsjdk.samtools.filter.SamRecordFilter;
+import htsjdk.samtools.fork.QueryInterval;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamReader;
 
 import java.util.Iterator;
 import java.util.List;

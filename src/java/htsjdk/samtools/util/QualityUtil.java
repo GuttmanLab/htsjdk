@@ -24,7 +24,7 @@
 
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * Utility class for working with quality scores and error probabilities.

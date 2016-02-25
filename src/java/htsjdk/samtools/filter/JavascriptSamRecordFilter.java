@@ -27,8 +27,8 @@ import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * javascript based read filter

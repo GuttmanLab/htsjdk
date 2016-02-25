@@ -23,8 +23,8 @@
  */
 package htsjdk.samtools.liftover;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.Interval;
 import htsjdk.samtools.util.Log;

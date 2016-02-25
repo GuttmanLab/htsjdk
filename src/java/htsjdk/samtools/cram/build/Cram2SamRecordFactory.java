@@ -17,12 +17,6 @@
  */
 package htsjdk.samtools.cram.build;
 
-import htsjdk.samtools.Cigar;
-import htsjdk.samtools.CigarElement;
-import htsjdk.samtools.CigarOperator;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMReadGroupRecord;
-import htsjdk.samtools.SAMRecord;
 import htsjdk.samtools.cram.encoding.readfeatures.Deletion;
 import htsjdk.samtools.cram.encoding.readfeatures.HardClip;
 import htsjdk.samtools.cram.encoding.readfeatures.InsertBase;
@@ -35,6 +29,12 @@ import htsjdk.samtools.cram.encoding.readfeatures.SoftClip;
 import htsjdk.samtools.cram.encoding.readfeatures.Substitution;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.ReadTag;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.CigarElement;
+import htsjdk.samtools.fork.CigarOperator;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 import java.util.ArrayList;
 import java.util.Collection;

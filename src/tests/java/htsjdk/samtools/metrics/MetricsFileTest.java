@@ -24,10 +24,11 @@
 
 package htsjdk.samtools.metrics;
 
-import htsjdk.samtools.SAMException;
+import htsjdk.samtools.fork.SAMException;
 import htsjdk.samtools.util.FormatUtil;
 import htsjdk.samtools.util.Histogram;
 import htsjdk.samtools.util.TestUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

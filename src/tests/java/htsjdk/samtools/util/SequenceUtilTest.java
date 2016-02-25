@@ -23,12 +23,13 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.Cigar;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMSequenceDictionary;
-import htsjdk.samtools.SAMTag;
-import htsjdk.samtools.SAMTextHeaderCodec;
-import htsjdk.samtools.TextCigarCodec;
+import htsjdk.samtools.fork.Cigar;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMTag;
+import htsjdk.samtools.fork.SAMTextHeaderCodec;
+import htsjdk.samtools.fork.TextCigarCodec;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

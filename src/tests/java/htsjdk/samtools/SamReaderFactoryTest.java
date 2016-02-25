@@ -1,5 +1,21 @@
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.BAMRecord;
+import htsjdk.samtools.fork.CustomReaderFactory;
+import htsjdk.samtools.fork.DefaultSAMRecordFactory;
+import htsjdk.samtools.fork.FileInputResource;
+import htsjdk.samtools.fork.InputResource;
+import htsjdk.samtools.fork.InputStreamInputResource;
+import htsjdk.samtools.fork.QueryInterval;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordFactory;
+import htsjdk.samtools.fork.SAMRecordIterator;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.SeekableStreamInputResource;
+import htsjdk.samtools.fork.UrlInputResource;
 import htsjdk.samtools.seekablestream.SeekableHTTPStream;
 import htsjdk.samtools.util.Iterables;
 import htsjdk.samtools.util.Log;

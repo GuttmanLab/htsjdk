@@ -1,6 +1,6 @@
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * A span of reads on a single reference.

@@ -1,6 +1,8 @@
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.AbstractBAMFileIndex;
 import htsjdk.samtools.seekablestream.SeekableStream;
+
 import org.testng.annotations.Test;
 
 import java.io.IOException;

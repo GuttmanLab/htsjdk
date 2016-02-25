@@ -24,6 +24,9 @@ package htsjdk.samtools;
  * THE SOFTWARE.
  */
 
+import htsjdk.samtools.fork.SAMHeaderRecordComparator;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

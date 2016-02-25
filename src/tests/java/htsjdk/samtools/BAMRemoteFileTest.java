@@ -23,7 +23,13 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloserUtil;
+
 import org.testng.annotations.Test;
 
 import java.io.File;

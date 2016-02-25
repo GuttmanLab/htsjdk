@@ -1,6 +1,6 @@
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

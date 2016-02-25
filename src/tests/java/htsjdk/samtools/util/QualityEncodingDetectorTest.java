@@ -1,10 +1,11 @@
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMRecordSetBuilder;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
 import htsjdk.samtools.fastq.FastqReader;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

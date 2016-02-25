@@ -1,6 +1,6 @@
 package htsjdk.tribble.readers;
 
-import htsjdk.samtools.Defaults;
+import htsjdk.samtools.fork.Defaults;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.RuntimeIOException;
 import htsjdk.tribble.TribbleException;
@@ -22,7 +22,7 @@ public class LineReaderUtil {
 
     /**
      * Like {@link #fromBufferedStream(java.io.InputStream, LineReaderUtil.LineReaderOption)}, but the synchronicity
-     * option is determined by {@link htsjdk.samtools.Defaults}: if asynchronous I/O is enabled, an asynchronous line reader will be
+     * option is determined by {@link htsjdk.samtools.fork.Defaults}: if asynchronous I/O is enabled, an asynchronous line reader will be
      * returned.
      */
     public static LineReader fromBufferedStream(final InputStream stream) {

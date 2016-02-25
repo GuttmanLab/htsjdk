@@ -23,7 +23,7 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.Defaults;
+import htsjdk.samtools.fork.Defaults;
 
 import java.io.File;
 import java.io.FileInputStream;

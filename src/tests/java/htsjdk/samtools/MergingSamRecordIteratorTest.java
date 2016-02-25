@@ -23,7 +23,16 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.MergingSamRecordIterator;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SamFileHeaderMerger;
+import htsjdk.samtools.fork.SamReader;
 import htsjdk.samtools.util.SequenceUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

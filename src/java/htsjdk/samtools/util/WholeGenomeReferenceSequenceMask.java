@@ -23,8 +23,8 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 
 /**
  * Implementation of ReferenceSequenceMask that indicates that all the loci in the sequence dictionary are of interest.

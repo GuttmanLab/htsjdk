@@ -1,7 +1,8 @@
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.SequenceUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

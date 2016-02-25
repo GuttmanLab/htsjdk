@@ -23,10 +23,23 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.BamFileIoUtils;
+import htsjdk.samtools.fork.DiskBasedBAMFileIndex;
+import htsjdk.samtools.fork.QueryInterval;
+import htsjdk.samtools.fork.SAMFileWriter;
+import htsjdk.samtools.fork.SAMFileWriterFactory;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMUtils;
+import htsjdk.samtools.fork.SamFiles;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloseableIterator;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.StopWatch;
 import htsjdk.samtools.util.StringUtil;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

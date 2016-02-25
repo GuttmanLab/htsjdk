@@ -17,9 +17,6 @@
  */
 package htsjdk.samtools.cram.encoding.reader;
 
-import htsjdk.samtools.SAMFormatException;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.ValidationStringency;
 import htsjdk.samtools.cram.encoding.readfeatures.BaseQualityScore;
 import htsjdk.samtools.cram.encoding.readfeatures.Bases;
 import htsjdk.samtools.cram.encoding.readfeatures.Deletion;
@@ -35,6 +32,9 @@ import htsjdk.samtools.cram.encoding.readfeatures.SoftClip;
 import htsjdk.samtools.cram.encoding.readfeatures.Substitution;
 import htsjdk.samtools.cram.structure.CramCompressionRecord;
 import htsjdk.samtools.cram.structure.ReadTag;
+import htsjdk.samtools.fork.SAMFormatException;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.ValidationStringency;
 
 import java.util.LinkedList;
 

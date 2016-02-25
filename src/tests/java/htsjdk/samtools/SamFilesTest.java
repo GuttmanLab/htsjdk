@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import htsjdk.samtools.fork.SamFiles;
+
 import java.io.File;
 import java.io.IOException;
 

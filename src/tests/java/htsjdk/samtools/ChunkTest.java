@@ -23,6 +23,8 @@
  */
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.Chunk;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

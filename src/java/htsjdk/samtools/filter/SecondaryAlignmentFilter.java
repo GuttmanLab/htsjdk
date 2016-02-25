@@ -1,6 +1,6 @@
 package htsjdk.samtools.filter;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * SamRecordFilter that filters out secondary alignments, but not supplemental alignments.

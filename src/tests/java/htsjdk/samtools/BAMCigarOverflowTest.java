@@ -1,7 +1,13 @@
 package htsjdk.samtools;
 
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.util.CloserUtil;
+
 import org.testng.annotations.Test;
+
 import static org.testng.Assert.assertEquals;
 
 import java.io.File;

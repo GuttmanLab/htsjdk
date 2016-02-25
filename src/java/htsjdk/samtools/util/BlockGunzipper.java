@@ -23,7 +23,7 @@
  */
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMFormatException;
+import htsjdk.samtools.fork.SAMFormatException;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

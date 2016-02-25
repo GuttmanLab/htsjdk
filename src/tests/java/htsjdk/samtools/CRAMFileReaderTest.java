@@ -24,9 +24,12 @@
 package htsjdk.samtools;
 
 import htsjdk.samtools.cram.ref.ReferenceSource;
+import htsjdk.samtools.fork.CRAMFileReader;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.reference.InMemoryReferenceSequenceFile;
 import htsjdk.samtools.seekablestream.SeekableFileStream;
 import htsjdk.samtools.util.Log;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 

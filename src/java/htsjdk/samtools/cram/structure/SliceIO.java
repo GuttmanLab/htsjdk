@@ -17,15 +17,15 @@
  */
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.BinaryTagCodec;
-import htsjdk.samtools.SAMBinaryTagAndValue;
-import htsjdk.samtools.SAMTagUtil;
-import htsjdk.samtools.ValidationStringency;
 import htsjdk.samtools.cram.common.CramVersions;
 import htsjdk.samtools.cram.io.CramArray;
 import htsjdk.samtools.cram.io.ITF8;
 import htsjdk.samtools.cram.io.InputStreamUtils;
 import htsjdk.samtools.cram.io.LTF8;
+import htsjdk.samtools.fork.BinaryTagCodec;
+import htsjdk.samtools.fork.SAMBinaryTagAndValue;
+import htsjdk.samtools.fork.SAMTagUtil;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.util.BinaryCodec;
 import htsjdk.samtools.util.Log;
 

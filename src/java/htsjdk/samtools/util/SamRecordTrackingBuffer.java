@@ -24,10 +24,10 @@
 
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.BAMRecordCodec;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.BAMRecordCodec;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
 
 import java.io.File;
 import java.util.ArrayDeque;

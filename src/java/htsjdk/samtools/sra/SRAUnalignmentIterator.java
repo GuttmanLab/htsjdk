@@ -27,11 +27,11 @@
 package htsjdk.samtools.sra;
 
 
-import htsjdk.samtools.Chunk;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SRAIterator;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.Chunk;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SRAIterator;
+import htsjdk.samtools.fork.ValidationStringency;
 import ngs.ErrorMsg;
 import ngs.Read;
 import ngs.ReadCollection;

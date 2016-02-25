@@ -9,7 +9,11 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Random;
 
-import htsjdk.samtools.DownsamplingIteratorFactory.Strategy;
+import htsjdk.samtools.fork.DownsamplingIterator;
+import htsjdk.samtools.fork.DownsamplingIteratorFactory;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMRecordSetBuilder;
+import htsjdk.samtools.fork.DownsamplingIteratorFactory.Strategy;
 
 /**
  * Tests for the downsampling iterator class.

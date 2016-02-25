@@ -24,8 +24,8 @@
 
 package htsjdk.samtools.reference;
 
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 import htsjdk.samtools.util.IOUtil;
 
 import java.io.File;

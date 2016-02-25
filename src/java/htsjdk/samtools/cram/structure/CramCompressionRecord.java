@@ -17,13 +17,13 @@
  */
 package htsjdk.samtools.cram.structure;
 
-import htsjdk.samtools.SAMRecord;
 import htsjdk.samtools.cram.common.MutableInt;
 import htsjdk.samtools.cram.encoding.readfeatures.Deletion;
 import htsjdk.samtools.cram.encoding.readfeatures.InsertBase;
 import htsjdk.samtools.cram.encoding.readfeatures.Insertion;
 import htsjdk.samtools.cram.encoding.readfeatures.ReadFeature;
 import htsjdk.samtools.cram.encoding.readfeatures.SoftClip;
+import htsjdk.samtools.fork.SAMRecord;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -24,7 +24,7 @@
 
 package htsjdk.samtools.util;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /**
  * A little class to store the unique index associated with this record.  The index is determined as records are read in, so is in fact
